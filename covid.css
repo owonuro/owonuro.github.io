@@ -25,8 +25,8 @@ header
 	text-align:center;
 	padding:0px 0px 0px 0px;
 	margin:0px 0px 0px 0px;
-	background-image:url("http://www.gettyimages.com/detail/1205880056");
-	/* url("covid.jpg");*/
+	background-image:url("covid.jpg");
+	/* url("http://www.gettyimages.com/detail/1205880056");*/
 	background-size:cover;
 	height:180ew;
 	text-shadow: 2px 2px 4px #000000;

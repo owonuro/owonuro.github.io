@@ -1,1 +1,2 @@
-# owonuro.github.io
+# profile
+Just a simple web page about myself

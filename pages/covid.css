@@ -1,0 +1,129 @@
+html
+{
+	font-family: arial;
+	padding:0;
+	border:0;
+}
+
+body
+{
+	font-family: arial;
+	padding:0;
+	border:0;
+	font-size:15pt;
+	background-color:#ffefd5;
+	margin:15px 15px 15px 15px;
+}
+
+header
+{
+	border:7px solid orange;
+	
+	font-family:aqua;
+	color:white;
+	font-size:3.2vw;
+	text-align:center;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	background-image:url("covid.jpg");
+	/* url("http://www.gettyimages.com/detail/1205880056");*/
+	background-size:cover;
+	height:180ew;
+	text-shadow: 2px 2px 4px #000000;
+	
+}
+
+
+
+
+p span
+{
+	border:0;
+	padding:0;
+	color:red;
+	font-weight:900;
+}
+p
+{padding:0;
+margin:0;
+	
+}
+
+.section
+{
+	border:0px;
+text-align:justify;
+background-color:0;
+border-radius:0px;
+padding-bottom:0px
+
+}
+
+
+
+
+
+#advice
+{
+	padding:6px 0px 6px 0px;
+	background-color:red;
+	text-align:center;
+	margin:10px 0px 10px 0px;
+	color:#ffefd5;
+	font-weight:500;
+	text-shadow: 2px 2px 1.5px #000000;
+
+	
+}
+
+a
+{
+	text-decoration:none;
+}
+
+footer
+{
+	font-family:Times New Roman;
+	text-align:right;
+	
+}
+
+
+img
+{
+
+margin:2px 2px 2px 2px;
+border:5px solid orange;
+height:200px;
+
+}
+
+/*The code below is to stack picture side by side.*/
+
+*
+{
+	box-sizing: border-box;
+	
+}
+
+.column
+{
+	float:left;
+	width:33.3%;
+	padding:5px;
+}
+
+
+.row::after
+{
+	content:"";
+	clear:both;
+	display:table;
+	
+}
+
+
+@media screen and (max-width:500px)
+{
+	.column {width:100%;}
+}

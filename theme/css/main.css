@@ -175,11 +175,15 @@ div.figure p.caption, figure p.caption { /* margin provided by figure */
 	padding: 0.8em 0 0 0;
 }
 
+
+
+
 	/* Banner */
 	#banner h1 {
 		font-size: 3.571em;
 		line-height: 1.0;
 		margin-bottom: .3em;
+		
 	}
 
 	#banner h1 a:link, #banner h1 a:visited {
@@ -195,7 +199,12 @@ div.figure p.caption, figure p.caption { /* margin provided by figure */
 		text-shadow: none;
 	}
 
-	#banner h1 strong {font-size: 0.36em; font-weight: normal;}
+	#banner h1 strong {
+		font-size: 0.36em; 
+		font-weight: normal; 
+		text-align: center;
+		
+		}
 
 	/* Main Nav */
 	#banner nav {
@@ -467,6 +476,15 @@ li:first-child .hentry, #content > .hentry {border: 0; margin: 0;}
 	#add-comment textarea {float: left; height: 150px; max-width: 495px;}
 
 	#add-comment p.req {clear: both; margin: 0 .5em 1em 0; text-align: right;}
+	
+	
+	
 
 	#add-comment input[type='submit'] {float: right; margin: 0 .5em;}
 	#add-comment * {margin-bottom: .5em;}
+
+.article-details{
+margin-top: -20px;
+padding-top: 4px;
+}
+
